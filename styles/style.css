@@ -1,6 +1,6 @@
 *{
   margin: 0 px;
-  padding: 0
+  padding: 0 px
 }
 
 .box {
@@ -9,6 +9,36 @@
   width: 40px;
   margin: 5px;
   display: inline-block;
+  position: relative ;
+  align-self: center;
+  text-align: center
+}
+.box:hover {
+  background-color: aqua;
+}
+
+.opened-box {
+  border: 1px solid;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  display: inline-block;
+  position: relative ;
+  align-self: center;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+.matched-box {
+  border: 1px solid;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  display: inline-block;
+  position: relative ;
+  align-self: center;
+  text-align: center;
+  background-color:grey;
 }
 
 .containerBaris {
