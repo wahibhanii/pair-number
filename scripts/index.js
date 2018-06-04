@@ -3,46 +3,11 @@ var boardSettings = []
 var boardsOpened = []
 var isHoldOpenBoard = false
 
-// function generateBoard () {
-//   // Generate board for game
-
-//   // clear existing board
-//   containerGame.innerHTML = ''
-  
-//   var jumlahBaris = document.getElementById('input-baris').value
-//   var jumlahKolom = document.getElementById('input-kolom').value
-
-//   if (!validateInput(jumlahBaris ) || !validateInput(jumlahKolom)) {
-//       return containerGame.innerHTML = 'WRONG INPUT'
-//   }
-
-//   console.log(jumlahBaris)
-
-//   for (i = 0; i < jumlahBaris ; i++ ){
-//     var divBaris = document.createElement('div')
-//     divBaris.id = 'baris-'+i
-//     divBaris.className = 'containerBaris'
-
-//     for (j = 0 ; j < jumlahKolom ; j++) {
-//       var divKolom = document.createElement('div')
-
-//       divKolom.id = 'box'+i+j
-//       divKolom.className = 'box'
-//       divKolom.innerHTML = box.value
-
-//       divBaris.appendChild(divKolom)
-//     }
-
-//     containerGame.appendChild(divBaris)
-//   }
-// }
-
 function generateBoardSettings () {
   containerGame.innerHTML = ''
   var row = document.getElementById('input-baris').value
   var col = document.getElementById('input-kolom').value
-  
-
+  a
   if (!validateInput(row ) || !validateInput(col)) {
       return containerGame.innerHTML = 'WRONG INPUT'
   }
